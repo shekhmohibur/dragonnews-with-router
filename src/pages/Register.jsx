@@ -20,8 +20,8 @@ const Register = () => {
                 navigate("/")
             })
             .catch((error) => {
-                console.log(error);
                 setUser(user);
+                alert(error)
             })
         })
         .catch((error) => {
